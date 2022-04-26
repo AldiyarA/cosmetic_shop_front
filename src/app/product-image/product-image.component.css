@@ -9,6 +9,7 @@
 .image-image{
   max-width: 100%;
   max-height: 100%;
+  mix-blend-mode: multiply;
 }
 .image-btn{
   position: absolute;

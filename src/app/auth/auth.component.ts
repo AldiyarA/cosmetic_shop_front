@@ -22,8 +22,8 @@ export class AuthComponent implements OnInit {
     }
   }
   login(): void{
-    this.service.login(this.username, this.password).subscribe(token=>{
-      localStorage.setItem('token', token.token);
+    this.service.login(this.username, this.password).subscribe(t => {
+      localStorage.setItem('token', t.token);
       this.username = '';
       this.password = '';
       window.location.reload();

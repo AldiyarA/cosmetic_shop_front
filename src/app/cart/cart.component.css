@@ -24,8 +24,9 @@
 .cart-table th {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #008000;
-  color: white;
+  background-color: #DC8E8C;
+  color: black;
+  font-size: 25px;
 }
 .cart-image{
   width: 170px;

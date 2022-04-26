@@ -8,10 +8,10 @@
 .login-block{
   width: 450px;
   height: 450px;
-  border: bisque 2px solid;
+  border: #F9DBE3 2px solid;
   border-radius: 10px;
   /*background-color: #ffe4c450;*/
-  background: #FDEAA8c0;
+  background: #FfE9E7;
   padding: 50px;
   box-sizing: border-box;
 
@@ -25,12 +25,14 @@
 .login-input, .login-input-btn{
   margin-top: 50px;
   font-size: 30px;
+  padding: 3px;
   padding-left: 10px;
 }
 .login-input-btn{
-  background-color: #CD853F;
+  background-color: #FEA76B;
   border-radius: 5px;
-  border: 7px solid #FFFFFF50;
+  padding: 3px;
+  border: 4px solid #FFFFFF50;
   border-right-color: #00000010;
   border-bottom-color: #00000010;
   outline: none;
